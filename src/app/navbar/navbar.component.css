@@ -1,0 +1,10 @@
+.spacer{
+   flex: 1 1 auto; 
+}
+#background:hover{
+    color:#ffffff;
+}
+
+.selector:hover {
+	background-color: #ffffff;
+}

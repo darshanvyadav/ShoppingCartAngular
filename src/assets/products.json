@@ -1,0 +1,38 @@
+[
+    {
+        "productId": "60e20a6ae9bd751e43d6a843",
+        "productName": "milk",
+        "productImageLink": "check",
+        "manufacturer": "milk",
+        "categoryName": "dairy",
+        "price": 70.0,
+        "isDeleted": true
+    },
+    {
+        "productId": "60e259f71e441228d1c0e3a0",
+        "productName": "Biscut",
+        "productImageLink": "check",
+        "manufacturer": "milk",
+        "categoryName": "dairy",
+        "price": 3.8,
+        "isDeleted": false
+    },
+    {
+        "productId": "60e25a0d1e441228d1c0e3a1",
+        "productName": "fhalkj",
+        "productImageLink": "check",
+        "manufacturer": "milk",
+        "categoryName": "dairy",
+        "price": 3.8,
+        "isDeleted": false
+    },
+    {
+        "productId": "60e25a111e441228d1c0e3a2",
+        "productName": "yroiuh;salkjnd",
+        "productImageLink": "check",
+        "manufacturer": "milk",
+        "categoryName": "dairy",
+        "price": 3.8,
+        "isDeleted": false
+    }
+]

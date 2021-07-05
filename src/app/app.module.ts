@@ -3,35 +3,37 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule,routingComponenets } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-import { UserComponent } from './user/user.component';
-import { WishlistComponent } from './wishlist/wishlist.component';
-import { ShoppingcartComponent } from './shoppingcart/shoppingcart.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
-import { ProductListComponent } from './productlist/productlist.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavbarComponent } from './navbar/navbar.component';
+import {MatToolbarModule, } from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
+import { HttpClientModule } from '@angular/common/http';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserComponent,
-    WishlistComponent,
-    ShoppingcartComponent,
-    LoginComponent,
-    RegisterComponent,
-    ProductListComponent,
-    
+    routingComponenets,
+    NavbarComponent   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatIconModule,
+    HttpClientModule,
+    MatInputModule,
+    MatFormFieldModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
